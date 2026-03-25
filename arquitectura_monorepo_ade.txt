@@ -1,0 +1,77 @@
+├── .husky
+│   ├── _
+│   │   ├── .gitignore
+│   │   ├── applypatch-msg
+│   │   ├── commit-msg
+│   │   ├── h
+│   │   ├── husky.sh
+│   │   ├── post-applypatch
+│   │   ├── post-checkout
+│   │   ├── post-commit
+│   │   ├── post-merge
+│   │   ├── post-rewrite
+│   │   ├── pre-applypatch
+│   │   ├── pre-auto-gc
+│   │   ├── pre-commit
+│   │   ├── pre-merge-commit
+│   │   ├── pre-push
+│   │   ├── pre-rebase
+│   │   └── prepare-commit-msg
+│   └── pre-commit
+├── src
+│   ├── config
+│   │   ├── config.ts
+│   │   └── swagger.options.ts
+│   ├── db
+│   │   └── mongo.ts
+│   ├── middleware
+│   │   ├── auth.handler.ts
+│   │   ├── error.handler.ts
+│   │   ├── response.handler.ts
+│   │   └── validation.handler.ts
+│   ├── modules
+│   │   ├── apiData
+│   │   │   ├── controllers
+│   │   │   │   └── municipios.controller.ts
+│   │   │   ├── interfaces
+│   │   │   │   └── municipios.interface.ts
+│   │   │   ├── models
+│   │   │   │   └── municipios.models.ts
+│   │   │   └── routes
+│   │   │       ├── index.routes.ts
+│   │   │       └── swagger.yaml
+│   │   └── fip
+│   │       ├── dto
+│   │       │   ├── actualizar-rol.dto.ts
+│   │       │   ├── buscar-multiple.dto.ts
+│   │       │   ├── crear-rol.dto.ts
+│   │       │   └── swagger.yaml
+│   │       ├── models
+│   │       │   ├── rol.model.ts
+│   │       │   └── swagger.yaml
+│   │       ├── roles.controller.ts
+│   │       ├── roles.routes.ts
+│   │       ├── roles.service.ts
+│   │       └── swagger.yaml
+│   ├── routes
+│   │   ├── fip.routes.ts
+│   │   └── index.routes.ts
+│   ├── app.ts
+│   └── index.ts
+├── .dockerignore
+├── .env
+├── .env.example
+├── .eslintignore
+├── .eslintrc.json
+├── .gitignore
+├── .prettierrc
+├── arquitectura.ps1
+├── docker-compose.dev.yaml
+├── docker-compose.prod.yaml
+├── Dockerfile.dev
+├── Dockerfile.prod
+├── nodemon.json
+├── package-lock.json
+├── package.json
+├── README.md
+└── tsconfig.json
