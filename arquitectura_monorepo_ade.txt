@@ -30,30 +30,31 @@
 │   │   ├── response.handler.ts
 │   │   └── validation.handler.ts
 │   ├── modules
-│   │   ├── apiData
-│   │   │   ├── controllers
-│   │   │   │   └── municipios.controller.ts
-│   │   │   ├── interfaces
-│   │   │   │   └── municipios.interface.ts
+│   │   ├── fip
+│   │   │   ├── dto
+│   │   │   │   ├── actualizar-rol.dto.ts
+│   │   │   │   ├── buscar-multiple.dto.ts
+│   │   │   │   ├── crear-rol.dto.ts
+│   │   │   │   └── swagger.yaml
 │   │   │   ├── models
-│   │   │   │   └── municipios.models.ts
-│   │   │   └── routes
-│   │   │       ├── index.routes.ts
-│   │   │       └── swagger.yaml
-│   │   └── fip
-│   │       ├── dto
-│   │       │   ├── actualizar-rol.dto.ts
-│   │       │   ├── buscar-multiple.dto.ts
-│   │       │   ├── crear-rol.dto.ts
-│   │       │   └── swagger.yaml
+│   │   │   │   ├── rol.model.ts
+│   │   │   │   └── swagger.yaml
+│   │   │   ├── roles.controller.ts
+│   │   │   ├── roles.routes.ts
+│   │   │   ├── roles.service.ts
+│   │   │   └── swagger.yaml
+│   │   └── municipios
+│   │       ├── interfaces
+│   │       │   └── municipios.interface.ts
 │   │       ├── models
-│   │       │   ├── rol.model.ts
+│   │       │   ├── municipios.models.ts
 │   │       │   └── swagger.yaml
-│   │       ├── roles.controller.ts
-│   │       ├── roles.routes.ts
-│   │       ├── roles.service.ts
+│   │       ├── municipios.controller.ts
+│   │       ├── municipios.routes.ts
+│   │       ├── municipios.service.ts
 │   │       └── swagger.yaml
 │   ├── routes
+│   │   ├── api-data.routes.ts
 │   │   ├── fip.routes.ts
 │   │   └── index.routes.ts
 │   ├── app.ts
