@@ -1,29 +1,47 @@
+├── .dockerignore
+├── .env
+├── .env.example
+├── .eslintignore
+├── .eslintrc.json
+├── .gitignore
 ├── .husky
-│   ├── _
-│   │   ├── .gitignore
-│   │   ├── applypatch-msg
-│   │   ├── commit-msg
-│   │   ├── h
-│   │   ├── husky.sh
-│   │   ├── post-applypatch
-│   │   ├── post-checkout
-│   │   ├── post-commit
-│   │   ├── post-merge
-│   │   ├── post-rewrite
-│   │   ├── pre-applypatch
-│   │   ├── pre-auto-gc
-│   │   ├── pre-commit
-│   │   ├── pre-merge-commit
-│   │   ├── pre-push
-│   │   ├── pre-rebase
-│   │   └── prepare-commit-msg
-│   └── pre-commit
+│   ├── pre-commit
+│   └── _
+│       ├── .gitignore
+│       ├── applypatch-msg
+│       ├── commit-msg
+│       ├── h
+│       ├── husky.sh
+│       ├── post-applypatch
+│       ├── post-checkout
+│       ├── post-commit
+│       ├── post-merge
+│       ├── post-rewrite
+│       ├── pre-applypatch
+│       ├── pre-auto-gc
+│       ├── pre-commit
+│       ├── pre-merge-commit
+│       ├── pre-push
+│       ├── pre-rebase
+│       └── prepare-commit-msg
+├── .prettierrc
+├── docker-compose.dev.yaml
+├── docker-compose.prod.yaml
+├── Dockerfile.dev
+├── Dockerfile.prod
+├── nodemon.json
+├── package.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── README.md
 ├── src
+│   ├── app.ts
 │   ├── config
 │   │   ├── config.ts
 │   │   └── swagger.options.ts
 │   ├── db
 │   │   └── mongo.ts
+│   ├── index.ts
 │   ├── interfaces
 │   │   └── municipios.interface.ts
 │   ├── middleware
@@ -56,26 +74,8 @@
 │   │       ├── municipios.routes.ts
 │   │       ├── municipios.service.ts
 │   │       └── swagger.yaml
-│   ├── routes
-│   │   ├── api-data.routes.ts
-│   │   ├── fip.routes.ts
-│   │   └── index.routes.ts
-│   ├── app.ts
-│   └── index.ts
-├── .dockerignore
-├── .env
-├── .env.example
-├── .eslintignore
-├── .eslintrc.json
-├── .gitignore
-├── .prettierrc
-├── arquitectura.ps1
-├── docker-compose.dev.yaml
-├── docker-compose.prod.yaml
-├── Dockerfile.dev
-├── Dockerfile.prod
-├── nodemon.json
-├── package-lock.json
-├── package.json
-├── README.md
+│   └── routes
+│       ├── api-data.routes.ts
+│       ├── fip.routes.ts
+│       └── index.routes.ts
 └── tsconfig.json
