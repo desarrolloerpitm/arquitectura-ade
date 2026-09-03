@@ -25,10 +25,8 @@
 │       ├── pre-rebase
 │       └── prepare-commit-msg
 ├── .prettierrc
-├── docker-compose.dev.yaml
-├── docker-compose.prod.yaml
-├── Dockerfile.dev
-├── Dockerfile.prod
+├── docker-compose.yaml
+├── Dockerfile
 ├── nodemon.json
 ├── package.json
 ├── pnpm-lock.yaml
